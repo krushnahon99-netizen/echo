@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "echo_technology",
+  "version": "${version}",
+  "name": "Echo Technology",
+  "description": "Sculk-inspired technology: mine Echo Crystals, burn them in the Echo Reactor, route energy through conduits and power the Echo Fabricator, Charger and energy tools.",
+  "authors": ["Echo Technology Team"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/echo_technology/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.echotechnology.EchoTechnology"],
+    "client": ["com.echotechnology.client.EchoTechnologyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
